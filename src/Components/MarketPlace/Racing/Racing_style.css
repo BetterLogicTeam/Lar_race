@@ -1,0 +1,124 @@
+.t9baa8b22-bebc-43ae-a824-a6665fb79e92 {
+    color: #fff;
+    background: #222;
+    border: 1px solid transparent;
+    }
+    .t9baa8b22-bebc-43ae-a824-a6665fb79e92.place-top {
+    margin-top: -10px;
+    }
+    .t9baa8b22-bebc-43ae-a824-a6665fb79e92.place-top::before {
+    border-top: 8px solid transparent;
+    }
+    .t9baa8b22-bebc-43ae-a824-a6665fb79e92.place-top::after {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    bottom: -6px;
+    left: 50%;
+    margin-left: -8px;
+    border-top-color: #222;
+    border-top-style: solid;
+    border-top-width: 6px;
+    }
+    .t9baa8b22-bebc-43ae-a824-a6665fb79e92.place-bottom {
+    margin-top: 10px;
+    }
+    .t9baa8b22-bebc-43ae-a824-a6665fb79e92.place-bottom::before {
+    border-bottom: 8px solid transparent;
+    }
+    .t9baa8b22-bebc-43ae-a824-a6665fb79e92.place-bottom::after {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    top: -6px;
+    left: 50%;
+    margin-left: -8px;
+    border-bottom-color: #222;
+    border-bottom-style: solid;
+    border-bottom-width: 6px;
+    }
+    .t9baa8b22-bebc-43ae-a824-a6665fb79e92.place-left {
+    margin-left: -10px;
+    }
+    .t9baa8b22-bebc-43ae-a824-a6665fb79e92.place-left::before {
+    border-left: 8px solid transparent;
+    }
+    .t9baa8b22-bebc-43ae-a824-a6665fb79e92.place-left::after {
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    right: -6px;
+    top: 50%;
+    margin-top: -4px;
+    border-left-color: #222;
+    border-left-style: solid;
+    border-left-width: 6px;
+    }
+    .t9baa8b22-bebc-43ae-a824-a6665fb79e92.place-right {
+    margin-left: 10px;
+    }
+    .t9baa8b22-bebc-43ae-a824-a6665fb79e92.place-right::before {
+    border-right: 8px solid transparent;
+    }
+    .t9baa8b22-bebc-43ae-a824-a6665fb79e92.place-right::after {
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    left: -6px;
+    top: 50%;
+    margin-top: -4px;
+    border-right-color: #222;
+    border-right-style: solid;
+    border-right-width: 6px;
+    }
+
+    .firstdiv{
+        display: flex;
+        justify-content: space-between !important;
+    }
+
+    /* .modal-body {
+        position: relative;
+        flex: 1 1 auto;
+        padding: 1.5rem 2rem;
+        display: flex;
+        flex-direction: row !important;
+       
+        justify-content: space-between !important;
+        width: 100%;
+        height: 100%;
+    } */
+
+    .modal-body {
+        position: relative;
+        flex: 1 1 auto;
+        padding: 1.5rem 2rem;
+        display: block !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .modal:before {
+        content: "";
+        position: absolute;
+        background-color: transparent !important;
+        z-index: 0;
+    }
+    .modal {
+        /* overflow: auto; */
+        background-color: transparent !important;
+        background-color: transparent !important;
+    }
+
+    .modal-content {
+        background-image: url(https://cdn.pegaxy.io/statics/play/v9/images/modal/modal_bg.png);
+        margin: 5% auto 15% auto;
+        background-color: transparent !important;
+        border: 1px solid #888;
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        /* padding: 100px 200px  !important; */
+        
+    }
